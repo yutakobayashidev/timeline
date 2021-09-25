@@ -1,14 +1,12 @@
 export default {
-  title: "catnose's timeline",
-  description: 'personal website by catnose.',
+  title: "Yuta Kobayashi's timeline",
+  description: 'personal website by Yuta Kobayashi.',
   siteRoot:
     process.env.NODE_ENV === 'production'
-      ? 'https://times.catnose99.com'
+      ? 'https://yutakobayashi.dev'
       : 'http://localhost:3000',
   rssUrlList: [
-    'https://zenn.dev/catnose99/feed',
-    'https://catnose.medium.com/feed',
-    'https://note.com/catnose/rss',
-    'https://catknows.vercel.app/rss.xml',
+    'https://variouscolors.net/game/feed/',
+    'https://zenn.dev/yutakobayashi/feed',
   ],
 };

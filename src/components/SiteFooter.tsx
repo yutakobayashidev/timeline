@@ -5,7 +5,7 @@ export const SiteFooter = () => {
   return (
     <ContentWrapper>
       <div className={styles.container}>
-        <a href="https://github.com/catnose99/timeline" className={styles.link}>
+        <a href="https://github.com/yutakobayashidev/timeline" className={styles.link}>
           Source code is open on GitHub
         </a>
       </div>
