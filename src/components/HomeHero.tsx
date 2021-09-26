@@ -11,7 +11,7 @@ export const HomeHero = () => {
       <p className={styles.description}>
         My hobbies are programming, music, and space, and I enrolled in N middle school in April.
         You can follow{' '}
-        <a href="https://twitter.com/yutakobayashi">
+        <a href="https://twitter.com/yutakobayashi__">
           @yutakobayashi
           <TwitterIcon width={18} height={18} />
         </a>{' '}
