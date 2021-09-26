@@ -5,9 +5,7 @@ export const SiteFooter = () => {
   return (
     <ContentWrapper>
       <div className={styles.container}>
-        <a href="https://github.com/yutakobayashidev/timeline" className={styles.link}>
-          Source code is open on GitHub
-        </a>
+      This page is made with reference to<a href="https://github.com/catnose99/timeline" class="SiteFooter_link__1H0A6">catnose99/timeline</a>.
       </div>
     </ContentWrapper>
   );
