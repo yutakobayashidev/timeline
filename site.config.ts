@@ -6,7 +6,7 @@ export default {
       ? 'https://yutakobayashi.dev'
       : 'http://localhost:3000',
   rssUrlList: [
-    'https://variouscolors.net/game/feed/',
+    'https://variouscolors.net/game/users/yutakobayashi/feed/',
     'https://zenn.dev/yutakobayashi/feed',
   ],
 };
