@@ -1,5 +1,5 @@
 export default {
-  title: "Yuta Kobayashi's timeline",
+  title: "Yuta Kobayashi",
   description: 'personal website by Yuta Kobayashi.',
   siteRoot:
     process.env.NODE_ENV === 'production'
