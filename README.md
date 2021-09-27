@@ -74,4 +74,8 @@ To keep the feed fresh, you need to rebuild the app periodically.
 
 ## Licence
 
-MIT except for logo (`/public/icon.*`). Be sure to replace them when you fork this repo.
+MIT. Be sure to replace them when you fork this repo.
+
+## Special Thanks
+
+https://github.com/catnose99/timeline
