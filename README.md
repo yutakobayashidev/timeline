@@ -1,10 +1,10 @@
-# catnose99/timeline
+# yutakobayashidev/timeline
 
-[![deploy on vercel](https://github.com/catnose99/timeline/actions/workflows/deployment.yml/badge.svg?branch=main)](https://github.com/catnose99/timeline/actions/workflows/deployment.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ed31fcc-88a7-483a-b88d-e07f5acbce8c/deploy-status)](https://app.netlify.com/sites/yutakobayashi/deploys)
 
 ![screenshot](https://user-images.githubusercontent.com/34590683/110445555-959d5a80-8101-11eb-92f8-f9860bae4ac4.png)
 
-Personal website gathering my activities on the internet.
+Personal website gathering my activities on the internet. RSS feeds have also been added.
 
 ## Usage
 
