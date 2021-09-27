@@ -5,7 +5,7 @@ export const HomeHero = () => {
   return (
     <div className={styles.container}>
       <div className={styles.emoji}>
-        <span>🪐</span>
+        <span>🌏</span>
       </div>
       <h1 className={styles.title}>Hi, I'm Yuta Kobayashi</h1>
       <p className={styles.description}>
