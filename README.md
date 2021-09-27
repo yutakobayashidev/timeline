@@ -74,7 +74,7 @@ To keep the feed fresh, you need to rebuild the app periodically.
 
 ## Licence
 
-MIT. Be sure to replace them when you fork this repo.
+MIT
 
 ## Special Thanks
 
