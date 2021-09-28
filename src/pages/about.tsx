@@ -2,7 +2,7 @@ import Head from 'next/head';
 import jsonItems from '../../.items.json';
 import siteConfig from '../../site.config';
 import { PageWrap } from '../components/PageWrap';
-import { SiteHeader } from '../components/Siteheader';
+import { SiteHeader } from '../components/SiteHeader';
 import { itemsSchema } from '../schema';
 import Image from 'next/image'
 
