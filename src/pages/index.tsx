@@ -2,7 +2,7 @@ import Head from 'next/head';
 import jsonItems from '../../.items.json';
 import siteConfig from '../../site.config';
 import { ContentWrapper } from '../components/ContentWrapper';
-import { SiteHeader } from '../components/Siteheader';
+import { SiteHeader } from '../components/SiteHeader';
 import { HomeHero } from '../components/HomeHero';
 import { Timeline } from '../components/Timeline';
 import { itemsSchema } from '../schema';
