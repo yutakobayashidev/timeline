@@ -29,7 +29,6 @@ const IndexPage = () => {
         </section>
         <h1>Music</h1>
         <p>I love VOCALOID and CeVIO (mainly KAFU) songs 🤎.</p>
-        <iframe src="https://open.spotify.com/embed/playlist/6olle09sPF3NbGEFYs2vyU" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <h1>Project</h1>
         <p>This is the list of my Github repository.</p>
       </PageWrap>
