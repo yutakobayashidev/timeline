@@ -16,6 +16,15 @@ html {
   box-sizing: inherit;
 }
 
+.PageHeading {
+  font-size: 4.3076923077rem;
+}
+
+.About_Hero {
+  display: flex;
+  flex-flow: row-reverse;
+}
+
 body {
   margin: 0;
   color: var(--c-base-text);

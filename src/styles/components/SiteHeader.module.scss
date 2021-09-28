@@ -1,0 +1,29 @@
+.headerwrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.3rem;
+}
+
+.header {
+    padding: 1rem 0;
+}
+
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+}
+
+.header__link {
+    margin-left: 1.5rem;
+    font-size: .95rem;
+}
+
+.title {
+    font-size: 0.95rem;
+}
