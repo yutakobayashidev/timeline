@@ -8,5 +8,6 @@ export default {
   rssUrlList: [
     'https://variouscolors.net/game/users/yutakobayashi/feed/',
     'https://zenn.dev/yutakobayashi/feed',
+    'https://note.com/yuta_kobayashi/rss',
   ],
 };
