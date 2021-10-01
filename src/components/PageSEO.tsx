@@ -34,10 +34,6 @@ export const PageSEO: React.FC<Props> = (props) => {
       <meta property="og:url" content={pageUrl} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:site" content={config.title} />
-      <meta
-        property="og:image"
-        content={ogImageUrl || `${config.siteRoot}/ogp.png`}
-      />
       {!!description && (
         <>
           <meta name="description" content={description} />

@@ -24,7 +24,7 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
-        <a href={`https://github.com/yutakobayashidev/timeline/edit/main/blog/${postData.id}.md`}>Edit on GitHub</a>
+        <a href={`https://github.com/yutakobayashidev/timeline/edit/main/content/${postData.id}.md`}>Edit on GitHub</a>
       </ContentWrapper>
     </>
   )
