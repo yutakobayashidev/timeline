@@ -13,6 +13,9 @@ export const SiteHeader = () => {
           <Link href="/about">
           <a className={styles.header__link}>About</a>
           </Link>
+          <Link href="/blog">
+          <a className={styles.header__link}>Blog</a>
+          </Link>
           </div>
         </div>
       </div>

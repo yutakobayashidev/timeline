@@ -1,23 +1,14 @@
-import Head from 'next/head';
 import jsonItems from '../../.items.json';
-import siteConfig from '../../site.config';
 import { PageWrap } from '../components/PageWrap';
-import { SiteHeader } from '../components/SiteHeader';
 import { itemsSchema } from '../schema';
 import Image from 'next/image'
+import { PageSEO } from '../components/PageSEO';
 
 const IndexPage = () => {
   const items = itemsSchema.parse(jsonItems);
   return (
     <>
-      <Head>
-        <title>{siteConfig.title}</title>
-        <link rel="canonical" href={siteConfig.siteRoot} />
-        <meta property="og:title" content={siteConfig.title} />
-        <meta property="og:description" content={siteConfig.description} />
-        <meta name="description" content={siteConfig.description} />
-      </Head>
-      <SiteHeader />
+      <PageSEO title="About" path="/about" />
       <PageWrap>
         <h1 className="PageHeading">About</h1>
         <section className="About_Hero">

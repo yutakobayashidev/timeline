@@ -16,8 +16,8 @@ const TimelineItem: React.VFC<{ item: Item }> = ({ item }) => {
         {hostname && (
           <img
             src={
-              hostname === 'zenn.dev'
-                ? '/zenn-favicon.png'
+              hostname === 'yutakobayashi.notion.site'
+                ? '/notion-favicon.png'
                 : getFaviconSrcFromHostname(hostname)
             }
             width={14}

@@ -10,4 +10,14 @@ export default {
     'https://zenn.dev/yutakobayashi/feed',
     'https://note.com/yuta_kobayashi/rss',
   ],
+  headerLinks: [
+    {
+      title: "About",
+      href: "/about",
+    },
+    {
+      title: "Blog",
+      href: "/blog",
+    },
+  ],
 };
