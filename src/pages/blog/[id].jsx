@@ -11,7 +11,7 @@ export default function Post({ postData }) {
       <Head>
         <meta
           property="og:image"
-          content={`https://res.cloudinary.com/dcpquefnu/image/upload/l_text:Sawarabi%20Gothic_50_bold:${postData.title},co_rgb:333,w_500,c_fit/v1633071878/1LsAeiMQ_wdrumf.png`}
+          content={`https://res.cloudinary.com/yutakobayashi/image/upload/l_text:Sawarabi%20Gothic_50_bold:${postData.title},co_rgb:333,w_500,c_fit/v1633071878/1LsAeiMQ_wdrumf.png`}
         />
       </Head>
       <PageSEO title={postData.title} og={postData.title} />
