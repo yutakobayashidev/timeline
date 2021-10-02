@@ -1,7 +1,7 @@
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import { ContentWrapper } from 'src/components/ContentWrapper';
 import hero from 'src/styles/components/HomeHero.module.scss';
-import Date from 'src/components/date'
+import Date from 'src/components/date';
 import { PageSEO } from 'src/components/PageSEO';
 import Head from 'next/head'
 
@@ -19,12 +19,11 @@ export default function Post({ postData }) {
         <div className={hero.container}>
           <div className="Blog_Emoji">
             <span>{postData.emoji}</span>
+            <h1 className={hero.title}>{postData.title}</h1>
           </div>
-          <h1 className={hero.title}>{postData.title}</h1>
-          <Date dateString={postData.date} />
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
-        <a href={`https://github.com/yutakobayashidev/timeline/edit/main/content/${postData.id}.md`}>Edit on GitHub</a>
+        <section className="article_main" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <a href={`https://github.com/yutakobayashidev/timeline/edit/main/content/${postData.id}.md`}>Edit on GitHub</a> <Date dateString={postData.date} />
       </ContentWrapper>
     </>
   )

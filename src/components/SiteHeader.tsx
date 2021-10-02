@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const SiteHeader = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.headerwrapper}>
+      <div className={styles.HeaderWrapper}>
         <div className={styles.header_inner}>
           <Link href="/">
             <a><h1 className={styles.title}>yutaKobayashi.dev</h1></a>
