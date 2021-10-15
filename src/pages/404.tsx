@@ -12,7 +12,6 @@ const Page: NextPage = () => {
           <div>
             <div className="error__status">404</div>
             <h1 className="error__message">Page not found...</h1>
-
             <nav className="error__actions">
             </nav>
           </div>

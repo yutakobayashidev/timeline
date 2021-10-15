@@ -2,8 +2,6 @@
 // import { SiteHeader } from '@src/components/SiteHeader';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import siteConfig from '../../site.config';
-import { SiteFooter } from '../components/SiteFooter';
 import { SiteHeader } from '../components/SiteHeader';
 import '../styles/global/index.scss';
 
@@ -18,7 +16,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <SiteHeader />
       <Component {...pageProps} />
-      <SiteFooter />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { HomeHero } from '../components/HomeHero';
 import { Timeline } from '../components/Timeline';
 import { itemsSchema } from '../schema';
 import { PageSEO } from '../components/PageSEO';
+import { SiteFooter } from '../components/SiteFooter';
 
 const IndexPage = () => {
   const items = itemsSchema.parse(jsonItems);
@@ -23,6 +24,7 @@ const IndexPage = () => {
           <Timeline items={items} />
         </div>
       </ContentWrapper>
+      <SiteFooter />
     </>
   );
 };
